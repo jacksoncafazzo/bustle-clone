@@ -1,0 +1,9 @@
+<h2>Welcome to BlustleBustle</h2>
+
+<ul>
+  {{#each model as |content|}}
+    {{content-tile content=content destroyContent="destroyContent"}}
+  {{/each}}
+</ul>
+
+{{new-content save2="save3"}}

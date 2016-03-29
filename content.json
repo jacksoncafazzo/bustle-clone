@@ -1,0 +1,19 @@
+{
+  "contents": [{
+    "title": "Sara Silverman is funnier than the other person",
+    "author": "Not Tom, could have been Toasty tho",
+    "type": "Fact",
+    "text": "Bob Odenkirk was just at the Brody Theater for real like last weekend.",
+    "time": "new Date()",
+    "image": "/assets/images/sarah.jpeg"
+    },{
+    "title": "Why dogs are cats",
+    "author": "Mr. Made-you-click",
+    "type": "Fact",
+    "text": "cats are dogs and now you know the truth",
+    "time": "new Date()",
+    "image": "/assets/images/catdog.png"
+    }
+  ]
+
+}

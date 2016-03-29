@@ -1,0 +1,25 @@
+.content-item {
+  position: relative;
+  display: block;
+  width: 450px;
+  margin-bottom: 50px;
+  background-color: red;
+}
+
+.content-display {
+  width: 100%;
+}
+
+.type {
+  position: absolute;
+  top: 0;
+  margin: 0;
+  padding-top: 7px;
+  padding-left: 12px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: black;
+  text-shadow: 1px 1px 2px white;
+}
