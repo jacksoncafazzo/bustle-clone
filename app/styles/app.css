@@ -3,7 +3,6 @@
   display: block;
   width: 450px;
   margin-bottom: 50px;
-  background-color: red;
 }
 
 .content-display {
@@ -17,9 +16,33 @@
   padding-top: 7px;
   padding-left: 12px;
   text-transform: uppercase;
-  font-family: sans-serif;
   font-size: 1.5em;
   font-weight: bold;
-  color: black;
-  text-shadow: 1px 1px 2px white;
+  color: #EFEEED;
+  text-shadow: 1px 1px 0px #9797A4;
+  transform : scale(1,.85);
+
+}
+
+.article-link h1 {
+  font-weight: bold;
+}
+
+hr {
+  padding-bottom: 30px;
+
+}
+.article-link button {
+
+}
+
+.author {
+  position: absolute;
+  bottom: 30px;
+
+}
+.time {
+  position: absolute;
+  bottom: 30px;
+  right: 10px;
 }

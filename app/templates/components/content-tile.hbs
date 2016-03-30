@@ -4,8 +4,9 @@
     <h1>{{content.title}}</h1>
     <p class="type">{{content.type}}</p>
   </div>
-  <p>{{content.author}}</p>
-  <p>{{content.time}}</p>
-  <p>{{timeDifference}}</p>
-  <button {{action 'delete' content}}>Delete</button>
+  <hr>
+  <h4 class="author">{{content.author}}</h4>
+  <h4 class="time">{{content.time}}</h4>
+  {{update-content content=content update="update"}}
+  <button class="btn-primary pull-right" {{action 'delete' content}}>Delete this entry</button>
 </div>
